@@ -1,0 +1,17 @@
+[package]
+name = "docker-rs"
+version = "0.1.0"
+authors = ["Chris Jones <chris.jones@lambdastack.io>"]
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["docker", "container", "api"]
+repository = "https://github.com/lambdastackio/docker-rs"
+homepage = "https://github.com/lambdastackio/docker-rs"
+documentation = "https://lambdastackio.github.io/docker-rs/docker-rs"
+description = """
+[Initial Crate - WIP!] Docker API
+"""
+
+[dependencies]
+rustc-serialize = "0"
+libc = "0"
